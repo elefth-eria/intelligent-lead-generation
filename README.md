@@ -56,7 +56,7 @@ export HUGGINGFACEHUB_API_TOKEN="hf_xxx"
 ---
 
 ## Quick Start
-1. Open the notebook (e.g., `Project_24_9_v3_fixed.ipynb` or `Refined_Version.ipynb`).
+1. Open the notebook.
 2. Run the **setup/imports** cell(s).
 3. Run the **initialization** cell (loads agents and reads keys).
 4. Run the **UI** cell:
