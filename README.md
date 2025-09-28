@@ -1,13 +1,13 @@
 # Intelligent Lead Generation (Notebook)
 
-A Jupyter Notebook project that builds a lightweight, semi‑automatic **lead directory** from the web. It generates targeted queries, runs web search via SerpApi, filters results, and (optionally) scrapes simple contact signals (like emails) from organization pages.
+A Jupyter Notebook project that builds a lightweight, semi‑automatic **lead directory** from the web. It generates targeted queries, runs web search via SerpApi, filters results, and scrapes simple contact signals (like emails) from organization pages.
 
 > Built around modular “agents” so you can swap parts in/out without breaking the rest.
 
 ---
 
 ## Features
-- **KeywordAgent**: expands a topic (optionally with synonyms) and adds country + intent clauses (`"contact us"`, `"about us"`, `"team"`, `"official site"`).
+- **KeywordAgent**: expands a topic (optionally with synonyms) and adds country + intent clauses (`"about us"`, `"official site"`).
 - **SerpApiSearchAgent**: queries Google via SerpApi and de‑duplicates by base domain.
 - **FilterAgent**: removes noisy domains (e.g., LinkedIn, Crunchbase, Wikipedia).
 - **ContactPageFinder**: small, same‑domain BFS to `/contact`, `/about`, `/team` pages; extracts emails (best‑effort).
